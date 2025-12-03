@@ -3,14 +3,14 @@ Flash Arduino by Arduino board
 This program is for astar-328PB board.
 
 Connection:
-(writer board) -> (T:target board)
-D8 -> T:DTR
-B4 -> T:TX -> 10k ohm -> VCC
-B3 -> T:RX
-VCC(not VCCIN) -> VCCIN
-GND -> T:GND
---- Start button ---
-D2 -> SW -> GND
+  (writer board) -> (T:target board)
+  D8 -> T:DTR
+  B4 -> T:TX -> 10k ohm -> VCC
+  B3 -> T:RX
+  VCC(not VCCIN) -> VCCIN
+  GND -> T:GND
+  --- Start button ---
+  D2 -> SW -> GND
 
 How to use:
 1. prepare hex file ("Export compiled binary" in the ArduinoIDE).
