@@ -7,7 +7,7 @@ Connection:
   D8 -> T:DTR
   B4 -> T:TX -> 10k ohm -> VCC
   B3 -> T:RX
-  VCC(not VCCIN) -> VCCIN
+  VCC(not VCCIN) -> T:VCCIN
   GND -> T:GND
   --- Start button ---
   D2 -> SW -> GND
